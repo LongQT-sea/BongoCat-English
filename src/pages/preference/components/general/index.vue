@@ -28,25 +28,25 @@ watch(() => generalStore.autostart, async (value) => {
 <template>
   <MacosPermissions />
 
-  <ProList title="应用设置">
-    <ProListItem title="开机自启动">
+  <ProList title="Application Settings">
+    <ProListItem title="Start at Login">
       <Switch v-model:checked="generalStore.autostart" />
     </ProListItem>
 
     <ProListItem
-      description="启用后，即可通过 OBS Studio 捕获窗口。"
-      title="显示任务栏图标"
+      description="When enabled, the window can be captured by OBS Studio."
+      title="Show Taskbar Icon"
     >
       <Switch v-model:checked="generalStore.taskbarVisibility" />
     </ProListItem>
   </ProList>
 
-  <ProList title="外观设置">
+  <ProList title="Appearance Settings">
     <ThemeMode />
   </ProList>
 
-  <ProList title="更新设置">
-    <ProListItem title="自动检查更新">
+  <ProList title="Update Settings">
+    <ProListItem title="Auto Check for Updates">
       <Switch v-model:checked="generalStore.autoCheckUpdate" />
     </ProListItem>
   </ProList>

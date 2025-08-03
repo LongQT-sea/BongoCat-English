@@ -39,7 +39,7 @@ class Live2d {
     const modelFile = files.find(file => file.name.endsWith('.model3.json'))
 
     if (!modelFile) {
-      throw new Error('未找到模型主配置文件，请确认模型文件是否完整。')
+      throw new Error('Model configuration file not found. Please ensure the model files are complete.')
     }
 
     const modelPath = join(path, modelFile.name)

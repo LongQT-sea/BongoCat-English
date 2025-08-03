@@ -15,7 +15,7 @@ import { FloatButton, FloatButtonGroup } from 'ant-design-vue'
     </template>
 
     <FloatButton
-      tooltip="制作模型"
+      tooltip="Create Model"
       @click="openUrl('https://juejin.cn/post/7509872655802269731')"
     >
       <template #icon>
@@ -24,7 +24,7 @@ import { FloatButton, FloatButtonGroup } from 'ant-design-vue'
     </FloatButton>
 
     <FloatButton
-      tooltip="转换模型"
+      tooltip="Convert Model"
       @click="openUrl('https://bongocat.vteamer.cc')"
     >
       <template #icon>
@@ -33,8 +33,8 @@ import { FloatButton, FloatButtonGroup } from 'ant-design-vue'
     </FloatButton>
 
     <FloatButton
-      tooltip="更多模型"
-      @click="openUrl('https://github.com/ayangweb/Awesome-BongoCat')"
+      tooltip="More Models"
+      @click="openUrl('https://github.com/LongQT-sea/Awesome-BongoCat')"
     >
       <template #icon>
         <UnorderedListOutlined />

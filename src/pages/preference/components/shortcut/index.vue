@@ -34,35 +34,35 @@ useTauriShortcut(alwaysOnTop, () => {
 </script>
 
 <template>
-  <ProList title="快捷键">
+  <ProList title="Shortcuts">
     <ProShortcut
       v-model="shortcutStore.visibleCat"
-      description="切换猫咪窗口的显示与隐藏。"
-      title="打开猫咪"
+      description="Toggle cat window visibility."
+      title="Show/Hide Cat"
     />
 
     <ProShortcut
       v-model="shortcutStore.visiblePreference"
-      description="切换偏好设置窗口的显示与隐藏。"
-      title="打开偏好设置"
+      description="Toggle preferences window visibility."
+      title="Show/Hide Preferences"
     />
 
     <ProShortcut
       v-model="shortcutStore.mirrorMode"
-      description="切换猫咪的镜像模式。"
-      title="镜像模式"
+      description="Toggle cat mirror mode."
+      title="Mirror Mode"
     />
 
     <ProShortcut
       v-model="shortcutStore.penetrable"
-      description="切换猫咪窗口是否可穿透。"
-      title="窗口穿透"
+      description="Toggle whether the cat window is click-through."
+      title="Click Through"
     />
 
     <ProShortcut
       v-model="shortcutStore.alwaysOnTop"
-      description="切换猫咪窗口是否置顶。"
-      title="窗口置顶"
+      description="Toggle whether the cat window stays on top."
+      title="Always on Top"
     />
   </ProList>
 </template>

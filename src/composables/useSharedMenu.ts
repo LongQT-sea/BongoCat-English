@@ -13,7 +13,7 @@ export function useSharedMenu() {
 
     const items = options.map((item) => {
       return CheckMenuItem.new({
-        text: item === 100 ? '默认' : `${item}%`,
+        text: item === 100 ? 'Default' : `${item}%`,
         checked: catStore.scale === item,
         action: () => {
           catStore.scale = item
@@ -59,30 +59,30 @@ export function useSharedMenu() {
   const getSharedMenu = async () => {
     return await Promise.all([
       MenuItem.new({
-        text: '偏好设置...',
+        text: 'Preferences...',
         accelerator: isMac ? 'Cmd+,' : '',
         action: () => showWindow('preference'),
       }),
       MenuItem.new({
-        text: catStore.visible ? '隐藏猫咪' : '显示猫咪',
+        text: catStore.visible ? 'Hide Cat' : 'Show Cat',
         action: () => {
           catStore.visible = !catStore.visible
         },
       }),
       PredefinedMenuItem.new({ item: 'Separator' }),
       CheckMenuItem.new({
-        text: '窗口穿透',
+        text: 'Click Through',
         checked: catStore.penetrable,
         action: () => {
           catStore.penetrable = !catStore.penetrable
         },
       }),
       Submenu.new({
-        text: '窗口尺寸',
+        text: 'Window Size',
         items: await getScaleMenuItems(),
       }),
       Submenu.new({
-        text: '不透明度',
+        text: 'Opacity',
         items: await getOpacityMenuItems(),
       }),
     ])

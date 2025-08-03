@@ -172,7 +172,7 @@ function handleMouseMove(event: MouseEvent) {
       class="flex items-center justify-center bg-black"
     >
       <span class="text-center text-5xl text-white">
-        重绘中...
+        Redrawing...
       </span>
     </div>
   </div>

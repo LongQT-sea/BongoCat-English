@@ -1,20 +1,20 @@
-![BongoCat](https://socialify.git.ci/ayangweb/BongoCat/image?custom_description=&description=1&font=Source+Code+Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fayangweb%2FBongoCat%2Fblob%2Fmaster%2Fsrc-tauri%2Fassets%2Flogo-mac.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Auto)
+![BongoCat](https://socialify.git.ci/LongQT-sea/BongoCat-English/image?custom_description=&description=1&font=Source+Code+Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2FLongQT-sea%2FBongoCat-English%2Fblob%2Fmaster%2Fsrc-tauri%2Fassets%2Flogo-mac.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Auto)
 
 <div align="center">
   <div>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/LongQT-sea/BongoCat-English/releases">
       <img
         alt="Windows"
         src="https://img.shields.io/badge/-Windows-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB0PSIxNzI2MzA1OTcxMDA2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE1NDgiIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4Ij48cGF0aCBkPSJNNTI3LjI3NTU1MTYxIDk2Ljk3MTAzMDEzdjM3My45OTIxMDY2N2g0OTQuNTEzNjE5NzVWMTUuMDI2NzU3NTN6TTUyNy4yNzU1NTE2MSA5MjguMzIzNTA4MTVsNDk0LjUxMzYxOTc1IDgwLjUyMDI4MDQ5di00NTUuNjc3NDcxNjFoLTQ5NC41MTM2MTk3NXpNNC42NzA0NTEzNiA0NzAuODMzNjgyOTdINDIyLjY3Njg1OTI1VjExMC41NjM2ODE5N2wtNDE4LjAwNjQwNzg5IDY5LjI1Nzc5NzUzek00LjY3MDQ1MTM2IDg0Ni43Njc1OTcwM0w0MjIuNjc2ODU5MjUgOTE0Ljg2MDMxMDEzVjU1My4xNjYzMTcwM0g0LjY3MDQ1MTM2eiIgcC1pZD0iMTU0OSIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvc3ZnPg=="
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/LongQT-sea/BongoCat-English/releases">
       <img
         alt="MacOS"
         src="https://img.shields.io/badge/-MacOS-black?style=flat-square&logo=apple&logoColor=white"
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/LongQT-sea/BongoCat-English/releases">
       <img
         alt="Linux"
         src="https://img.shields.io/badge/-Linux-yellow?style=flat-square&logo=linux&logoColor=white"
@@ -25,17 +25,17 @@
   <p>
     <a href="./LICENSE">
       <img
-        src="https://img.shields.io/github/license/ayangweb/BongoCat?style=flat-square"
+        src="https://img.shields.io/github/license/LongQT-sea/BongoCat-English?style=flat-square"
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases/latest">
+    <a href="https://github.com/LongQT-sea/BongoCat-English/releases/latest">
       <img
-        src="https://img.shields.io/github/package-json/v/ayangweb/BongoCat?style=flat-square"
+        src="https://img.shields.io/github/package-json/v/LongQT-sea/BongoCat-English?style=flat-square"
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/LongQT-sea/BongoCat-English/releases">
       <img
-        src="https://img.shields.io/github/downloads/ayangweb/BongoCat/total?style=flat-square"
+        src="https://img.shields.io/github/downloads/LongQT-sea/BongoCat-English/total?style=flat-square"
       />
     </a>
   </p>
@@ -55,46 +55,46 @@
 | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | ![macOS](https://i0.hdslb.com/bfs/openplatform/dff276b96d49c5d6c431b74b531aab72191b3d87.png) | ![Windows](https://i0.hdslb.com/bfs/openplatform/a4149b753856ee7f401989da902cf3b5ad35b39e.png) | ![Linux](https://i0.hdslb.com/bfs/openplatform/3b49f961819d3ff63b2b80251c1cc13c27e986b0.png) |
 
-## 赞助商
+## Sponsors
 
 <a href="https://www.toolsetlink.com">
   <img height="54" alt="UpgradeLink" src="https://github.com/user-attachments/assets/6b84fb0f-3f1d-44b5-9932-2298bc999d8d" />
 </a>
 
-## 开发背景
+## Development Background
 
-本项目的灵感来源于 [MMmmmoko](https://github.com/MMmmmoko) 大佬开发的 [Bongo-Cat-Mver](https://github.com/MMmmmoko/Bongo-Cat-Mver)。它以独特的猫咪互动功能深受用户喜爱，但仅支持 Windows 平台。作为一名深度 macOS 用户，我特别希望在自己的设备上也能使用这款可爱的猫咪，于是我决定开发一个适配 macOS 的版本。
+This project is inspired by [Bongo-Cat-Mver](https://github.com/MMmmmoko/Bongo-Cat-Mver) developed by [MMmmmoko](https://github.com/MMmmmoko). It's beloved by users for its unique cat interaction features, but only supports Windows. As a dedicated macOS user, I particularly wanted to use this adorable cat on my own device, so I decided to develop a macOS-compatible version.
 
-同时，得益于 [Tauri](https://github.com/tauri-apps/tauri) 强大的跨平台能力，本项目不仅支持 macOS，还兼容 Windows 和 Linux(x11)，让更多的用户都能与这只可爱的猫咪互动！
+Thanks to the powerful cross-platform capabilities of [Tauri](https://github.com/tauri-apps/tauri), this project not only supports macOS, but is also compatible with Windows and Linux(x11), allowing more users to interact with this cute cat!
 
-## 下载
+## Download
 
-- [夸克网盘](https://pan.quark.cn/s/70f2f2663ce1)
-- [GitHub Releases](https://github.com/ayangweb/BongoCat/releases)
+- [Quark Cloud Drive](https://pan.quark.cn/s/70f2f2663ce1)
+- [GitHub Releases](https://github.com/LongQT-sea/BongoCat-English/releases)
 
-不确定下载哪一个？请查阅[下载指南](.github/DOWNLOAD_GUIDE.md)。
+Not sure which one to download? Please check the [Download Guide](.github/DOWNLOAD_GUIDE.md).
 
-## 功能介绍
+## Features
 
-- 适配 macOS、Windows 和 Linux(x11)。
-- 根据键盘、鼠标或手柄的操作，同步对应的动作。
-- 支持导入自定义模型，自由打造专属猫咪形象。
-- 完全开源，代码公开透明，绝不收集任何用户数据。
-- 支持离线运行，无需联网，保护用户隐私。
+- Compatible with macOS, Windows, and Linux(x11).
+- Synchronizes corresponding actions based on keyboard, mouse, or gamepad operations.
+- Supports importing custom models to freely create your exclusive cat appearance.
+- Completely open source with transparent code that never collects any user data.
+- Supports offline operation without requiring internet connection, protecting user privacy.
 
-## 模型转换
+## Model Conversion
 
-如果你想将 Bongo-Cat-Mver 应用中的模型转换为兼容 BongoCat 的格式，可以使用以下工具：
+If you want to convert models from the Bongo-Cat-Mver application to a format compatible with BongoCat, you can use the following tool:
 
-🔗 [在线转换](https://bongocat.vteamer.cc)
+🔗 [Online Converter](https://bongocat.vteamer.cc)
 
-## 更多模型
+## More Models
 
-你可以在这个仓库中探索、下载更多猫咪模型，或提交你的创作，与大家一起分享：
+You can explore and download more cat models in this repository, or submit your creations to share with everyone:
 
-📦 [Awesome-BongoCat](https://github.com/ayangweb/Awesome-BongoCat)
+📦 [Awesome-BongoCat](https://github.com/LongQT-sea/Awesome-BongoCat)
 
-## 社区交流
+## Community
 
 <a href="https://qm.qq.com/q/AS3gNv2Vzy">
  <picture>
@@ -104,20 +104,20 @@
  </picture>
 </a>
 
-## 贡献指南
+## Contributing
 
-感谢大家为 BongoCat 做出的宝贵贡献！如果你也希望为 BongoCat 做出贡献，请查阅[贡献指南](.github/CONTRIBUTING.md)。
+Thank you all for your valuable contributions to BongoCat! If you would also like to contribute to BongoCat, please read the [Contributing Guide](.github/CONTRIBUTING.md).
 
 <a href="https://github.com/ayangweb/BongoCat/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ayangweb/BongoCat" />
 </a>
 
-## 历史星标
+## Star History
 
-<a href="https://www.star-history.com/#ayangweb/BongoCat&Date">
+<a href="https://www.star-history.com/#LongQT-sea/BongoCat-English&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=LongQT-sea/BongoCat-English&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=LongQT-sea/BongoCat-English&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=LongQT-sea/BongoCat-English&type=Date" />
  </picture>
 </a>

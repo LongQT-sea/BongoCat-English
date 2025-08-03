@@ -68,7 +68,7 @@ export function useTray() {
       ...await getSharedMenu(),
       PredefinedMenuItem.new({ item: 'Separator' }),
       MenuItem.new({
-        text: '检查更新',
+        text: 'Check for Updates',
         action: () => {
           showWindow()
 
@@ -76,20 +76,20 @@ export function useTray() {
         },
       }),
       MenuItem.new({
-        text: '开源地址',
+        text: 'Source Code',
         action: () => openUrl(GITHUB_LINK),
       }),
       PredefinedMenuItem.new({ item: 'Separator' }),
       MenuItem.new({
-        text: `版本 ${appVersion}`,
+        text: `Version ${appVersion}`,
         enabled: false,
       }),
       MenuItem.new({
-        text: '重启应用',
+        text: 'Restart App',
         action: relaunch,
       }),
       MenuItem.new({
-        text: '退出应用',
+        text: 'Quit App',
         accelerator: isMac ? 'Cmd+Q' : '',
         action: () => exit(0),
       }),

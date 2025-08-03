@@ -1,32 +1,32 @@
-name: 💡 功能请求
+name: 💡 Feature Request
 title: '[feat] '
-description: 提出一个想法
+description: Suggest an idea
 labels: feature request
 body:
   - type: textarea
     id: problem
     attributes:
-      label: 描述问题
-      description: 请清晰地描述此功能将解决的具体问题。
+      label: Describe the Problem
+      description: Please clearly describe the specific problem this feature would solve.
     validations:
       required: true
 
   - type: textarea
     id: solution
     attributes:
-      label: 描述您希望的解决方案
-      description: 请清晰地描述您期望的变更或改进。
+      label: Describe Your Desired Solution
+      description: Please clearly describe the changes or improvements you expect.
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: 考虑的替代方案
-      description: 提供您考虑过的其他替代解决方案。
+      label: Alternative Solutions Considered
+      description: Provide other alternative solutions you have considered.
 
   - type: textarea
     id: context
     attributes:
-      label: 附加信息
-      description: 请在此提供有关该问题的其他相关信息，帮助我们更全面地理解问题。
+      label: Additional Information
+      description: Please provide any other relevant information about this issue to help us understand it more comprehensively.

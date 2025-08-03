@@ -36,7 +36,7 @@ async function copyInfo() {
 
   await writeText(JSON.stringify(info, null, 2))
 
-  message.success('复制成功')
+  message.success('Copied successfully')
 }
 
 function feedbackIssue() {
@@ -45,16 +45,16 @@ function feedbackIssue() {
 </script>
 
 <template>
-  <ProList title="关于软件">
+  <ProList title="About Software">
     <ProListItem
-      :description="`版本：v${appStore.version}`"
+      :description="`Version: v${appStore.version}`"
       :title="appStore.name"
     >
       <Button
         type="primary"
         @click="handleUpdate"
       >
-        检查更新
+        Check for Updates
       </Button>
 
       <template #icon>
@@ -68,20 +68,20 @@ function feedbackIssue() {
     </ProListItem>
 
     <ProListItem
-      description="复制软件信息并提供给 Bug Issue。"
-      title="软件信息"
+      description="Copy software information for bug reports."
+      title="Software Info"
     >
       <Button @click="copyInfo">
-        复制
+        Copy
       </Button>
     </ProListItem>
 
-    <ProListItem title="开源地址">
+    <ProListItem title="Source Code">
       <Button
         danger
         @click="feedbackIssue"
       >
-        反馈问题
+        Report Issue
       </Button>
 
       <template #description>
@@ -93,10 +93,10 @@ function feedbackIssue() {
 
     <ProListItem
       :description="logDir"
-      title="软件日志"
+      title="Software Logs"
     >
       <Button @click="openPath(logDir)">
-        查看日志
+        View Logs
       </Button>
     </ProListItem>
   </ProList>

@@ -1,10 +1,10 @@
 {
-  "identifier": "com.ayangweb.BongoCat",
+  "identifier": "com.longqt-sea.BongoCat-English",
   "bundle": {
     "windows": {
       "digestAlgorithm": "sha256",
       "nsis": {
-        "languages": ["SimpChinese"],
+        "languages": ["English"],
         "installMode": "both"
       }
     }

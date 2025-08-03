@@ -20,9 +20,9 @@ onMounted(async () => {
 
   await appWindow.setAlwaysOnTop(true)
 
-  await message('如果权限已开启，先选中后点击“-”按钮将其删除，再重新手动添加，并重启应用以确保权限生效。', {
-    title: '输入监控权限',
-    okLabel: '前往开启',
+  await message('If permission is already enabled, first select it and click the "-" button to remove it, then manually add it again and restart the app to ensure permissions take effect.', {
+    title: 'Input Monitoring Permission',
+    okLabel: 'Go to Enable',
     kind: 'warning',
   })
 
@@ -35,11 +35,11 @@ onMounted(async () => {
 <template>
   <ProList
     v-if="isMac"
-    title="权限设置"
+    title="Permission Settings"
   >
     <ProListItem
-      description="开启输入监控权限，以便接收系统的键盘和鼠标事件来响应你的操作。"
-      title="输入监控权限"
+      description="Enable input monitoring permission to receive system keyboard and mouse events to respond to your actions."
+      title="Input Monitoring Permission"
     >
       <Space
         v-if="authorized"
@@ -48,7 +48,7 @@ onMounted(async () => {
       >
         <div class="i-solar:verified-check-bold text-4.5" />
 
-        <span>已授权</span>
+        <span>Authorized</span>
       </Space>
 
       <Space
@@ -59,7 +59,7 @@ onMounted(async () => {
       >
         <div class="i-solar:round-arrow-right-bold text-4.5" />
 
-        <span>去授权</span>
+        <span>Authorize</span>
       </Space>
     </ProListItem>
   </ProList>

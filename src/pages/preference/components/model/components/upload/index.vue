@@ -87,7 +87,7 @@ watch(selectPaths, async (paths) => {
         isPreset: false,
       })
 
-      message.success('导入成功')
+      message.success('Import successful')
     } catch (error) {
       message.error(String(error))
     }
@@ -104,6 +104,6 @@ watch(selectPaths, async (paths) => {
   >
     <div class="i-solar:upload-square-outline text-12 text-primary" />
 
-    <span>点击或拖动至此区域导入</span>
+    <span>Click or drag to this area to import</span>
   </div>
 </template>
